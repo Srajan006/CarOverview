@@ -109,3 +109,18 @@ align-items: center;
 
 }
 
+.title {
+  color: rgb(120, 120, 120);
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.title:hover {
+  color: rgb(0, 0, 0); /* Change text color to blue on hover */
+}
+
+.title:active {
+  color: rgb(255, 0, 0); /* Change text color to red on click */
+}
